@@ -75,5 +75,14 @@ a {
 	padding-bottom: 80px;
 	width: 750px;
   z-index: 20;
-  background-color: white;
+  /* background-color: white; */
+  background-color: powderblue;
+}
+
+#wrapper {
+	margin: auto;
+	width: 1000px;
+	text-align: left;
+	position: relative;
+	padding: 0 30px;
 }
