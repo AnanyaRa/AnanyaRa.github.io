@@ -49,7 +49,7 @@ a {
 	margin-bottom: 5px;
 }
 
-#picture {
+#profile_pic {
 	width: 190px;
 }
 
@@ -57,4 +57,23 @@ a {
 	font-size: 14px;
 	line-height: 18px;
 	text-align: center;
+}
+
+#left_bar {
+	position: fixed;
+	top: 65px;
+  display: inline-block;
+	width: 195px;
+	padding-left: 0px;
+	padding-right: 0px;
+  z-index: 1;
+}
+
+#main {
+	margin-left: 240px;
+	padding-top: 55px;
+	padding-bottom: 80px;
+	width: 750px;
+  z-index: 20;
+  background-color: white;
 }
