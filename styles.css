@@ -3,7 +3,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #282828;
-  background-color: powderblue;
+  background-color: rgb(207, 225, 227);
 	line-height: 20px;
 	text-align: center;
 	margin: 0;
@@ -76,7 +76,7 @@ a {
 	width: 750px;
   z-index: 20;
   /* background-color: white; */
-  background-color: powderblue;
+  background-color: rgb(207, 225, 227);
 }
 
 #wrapper {
