@@ -21,8 +21,8 @@ body {
 }
 
 #profile_pic {
-  width: 150px;             /* adjust as needed */
-  height: 150px;            /* ensures it’s a perfect circle */
+  width: 250px;             /* adjust as needed */
+  height: 250px;            /* ensures it’s a perfect circle */
   border-radius: 50%;       /* makes it circular */
   object-fit: cover;        /* crops image nicely */
   display: block;
@@ -63,14 +63,14 @@ a {
 	font-weight: 500;
 }
 
-#picture_container {
+/* #picture_container {
 	height: 225px;
 	margin-bottom: 5px;
-}
+} */
 
-#profile_pic {
+/* #profile_pic {
 	width: 190px;
-}
+} */
 
 #info {
 	font-size: 14px;
