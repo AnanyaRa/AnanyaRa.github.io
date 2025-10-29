@@ -11,6 +11,24 @@ body {
 	padding: 0;
 }
 
+#name_title {
+  text-align: center;
+  font-size: 42px;           /* make it large */
+  font-weight: 700;          /* bold */
+  margin-top: 20px;
+  margin-bottom: 30px;
+  /* font-family: 'Helvetica Neue', Arial, sans-serif; or any font you like */
+}
+
+#profile_pic {
+  width: 150px;             /* adjust as needed */
+  height: 150px;            /* ensures it’s a perfect circle */
+  border-radius: 50%;       /* makes it circular */
+  object-fit: cover;        /* crops image nicely */
+  display: block;
+  margin: 20px auto;        /* centers it inside its container */
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Serif Sans Pro', sans-serif;
 	color: black;
