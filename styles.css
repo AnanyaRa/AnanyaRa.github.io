@@ -25,9 +25,7 @@ body {
   height: 250px;
   object-fit: cover;
   display: block;
-  margin: 20px 0;
-  float: right;    /* Added to align with text */
-  margin-left: 20px; /* Add some space between image and text */
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,7 +79,7 @@ a {
 
 #left_bar {
 	position: fixed;
-	top: 65px;
+	top: 140px;  /* Adjusted to align with main text area */
   display: inline-block;
 	width: 195px;
 	padding-left: 0px;
@@ -93,7 +91,7 @@ a {
 	margin-left: 240px;
 	padding-top: 55px;
 	padding-bottom: 80px;
-	width: 650px;  /* Reduced from 750px to make text lines shorter */
+	width: 550px;  /* Reduced from 750px to make text lines shorter */
   z-index: 20;
   background-color: rgb(242, 247, 247);
 }
