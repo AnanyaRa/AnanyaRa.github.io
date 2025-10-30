@@ -92,12 +92,12 @@ a {
 
 #left_bar {
 	position: fixed;
-	top: 65px;
+	top: 160px; /* lowered so the image aligns with the overview paragraph (below the big name) */
 	width: 195px;
 	text-align: center;    /* Center all text content */
 	padding-left: 0px;
 	padding-right: 0px;
-    z-index: 1;
+	z-index: 1;
 }
 
 #main {
