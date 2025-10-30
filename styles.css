@@ -75,19 +75,26 @@ a {
 	font-size: 14px;
 	line-height: 18px;
 	text-align: center;
-	width: 100%;           /* Ensure full width of parent */
-	display: flex;         /* Use flexbox for better centering */
-	flex-direction: column;
-	align-items: center;   /* Center items horizontally */
+	width: 195px;          /* Match parent width exactly */
+	margin: 0 auto;        /* Center the info div itself */
+}
+
+#info h2 {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#info a {
+	display: inline-block;
+	margin: 0 5px;         /* Add some space between icons */
 }
 
 #left_bar {
 	position: fixed;
 	top: 65px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 	width: 195px;
+	text-align: center;    /* Center all text content */
 	padding-left: 0px;
 	padding-right: 0px;
     z-index: 1;
