@@ -27,7 +27,7 @@ body {
   object-fit: cover;        /* crops image nicely */
   display: block;
   /* margin: 20px auto;        centers it inside its container */
-  margin: 20px -20px 20px 40px;
+  margin: 20px -20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
