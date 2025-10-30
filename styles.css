@@ -21,11 +21,11 @@ body {
 }
 
 #profile_pic {
-  width: 250px;
-  height: 250px;
+  width: 195px;             /* Match the width of the left bar */
+  height: 195px;            /* Keep it square */
   object-fit: cover;
   display: block;
-  margin: 0;
+  margin: 0 auto 20px auto; /* Center it and add some space below */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,19 +79,19 @@ a {
 
 #left_bar {
 	position: fixed;
-	top: 140px;  /* Adjusted to align with main text area */
-  display: inline-block;
+	top: 65px;
+    display: inline-block;
 	width: 195px;
 	padding-left: 0px;
 	padding-right: 0px;
-  z-index: 1;
+    z-index: 1;
 }
 
 #main {
 	margin-left: 240px;
 	padding-top: 55px;
 	padding-bottom: 80px;
-	width: 550px;  /* Reduced from 750px to make text lines shorter */
+	width: 550px;  /* make text lines shorter */
   z-index: 20;
   background-color: rgb(242, 247, 247);
 }
