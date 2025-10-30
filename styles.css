@@ -21,13 +21,13 @@ body {
 }
 
 #profile_pic {
-  width: 250px;             /* adjust as needed */
-  height: 250px;            /* ensures it’s a perfect circle */
-  /* border-radius: 50%;       makes it circular */
-  object-fit: cover;        /* crops image nicely */
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
   display: block;
-  /* margin: 20px auto;        centers it inside its container */
-  margin: 20px -20px;
+  margin: 20px 0;
+  float: right;    /* Added to align with text */
+  margin-left: 20px; /* Add some space between image and text */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,9 +93,8 @@ a {
 	margin-left: 240px;
 	padding-top: 55px;
 	padding-bottom: 80px;
-	width: 750px;
+	width: 650px;  /* Reduced from 750px to make text lines shorter */
   z-index: 20;
-  /* background-color: white; */
   background-color: rgb(242, 247, 247);
 }
 
